@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>y20</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="sample.css">
+</head>
+<body>
+  <div class="mobile-bar" id="mobileBar">
+    <a href="#gallery" class="mobile-bar-logo" data-view="gallery">
+      <div class="logo-top"><span class="logo-y">y</span>20</div>
+      <div class="logo-bottom">solutions</div>
+    </a>
+    <nav class="mobile-top-links" aria-label="Quick links">
+      <a href="#" class="mobile-top-link active">music</a>
+      <a href="#product" class="mobile-top-link" data-view="product">design</a>
+      <a href="#" class="mobile-top-link">art</a>
+      <a href="#" class="mobile-top-link">about</a>
+      <a href="#" class="mobile-top-link">contact</a>
+    </nav>
+  </div>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="mobile-menu" id="mobileMenu">
+        <nav class="nav">
+          <a href="#gallery" class="nav-link" data-view="gallery">sample</a>
+          <a href="#product" class="nav-link" data-view="product">design</a>
+          <a href="#" class="nav-link">art</a>
+        </nav>
+        <nav class="nav">
+          <a href="#" class="nav-link">about</a>
+          <a href="#terms" class="nav-link" data-view="terms">terms</a>
+          <a href="#" class="nav-link">contact</a>
+        </nav>
+        <div class="sidebar-bottom">
+          <a href="#gallery" class="nav-controls" data-view="gallery">back</a>
+        </div>
+      </div>
+
+      <div class="sidebar-top">
+        <nav class="nav">
+          <a href="#gallery" class="nav-link active" data-view="gallery">sample</a>
+          <a href="#product" class="nav-link" data-view="product">design</a>
+          <a href="#" class="nav-link">art</a>
+        </nav>
+        <nav class="nav nav-second">
+          <a href="#" class="nav-link">about</a>
+          <a href="#terms" class="nav-link" data-view="terms">terms</a>
+          <a href="#" class="nav-link">contact</a>
+        </nav>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/nightrdd/" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <circle cx="12" cy="12" r="4"/>
+              <circle cx="17.5" cy="6.5" r="0.8" fill="currentColor" stroke="none"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="sidebar-logo">y20.solutions</div>
+      <div class="sidebar-bottom">
+        <a href="#gallery" class="nav-controls" data-view="gallery">back</a>
+      </div>
+    </aside>
+
+    <!-- VIEW: Gallery -->
+    <main id="view-gallery" class="view active gallery">
+      <div class="mobile-new-hero">
+        <div class="mobile-new-top">
+          <div class="mobile-nav-list">
+            <a href="#" class="mobile-nav-item active">music</a>
+            <a href="#product" class="mobile-nav-item" data-view="product">design</a>
+            <a href="#" class="mobile-nav-item">art</a>
+            <a href="#" class="mobile-nav-item">about</a>
+            <a href="#terms" class="mobile-nav-item" data-view="terms">terms</a>
+            <a href="#" class="mobile-nav-item">contact</a>
+          </div>
+          <div class="mobile-hero-img-wrap">
+            <img src="images/lorea backside demo.webp" alt="hero abstract" class="mobile-hero-img">
+          </div>
+        </div>
+        <h1 class="mobile-new-brand">y20 solutions</h1>
+        <div class="mobile-scroll-indicator">
+          <div class="scroll-line"></div>
+          <span>SCROLL</span>
+        </div>
+      </div>
+
+      <div class="gallery-catalog mobile-catalog" id="mobileCatalog">
+          <a class="card" href="#product" data-view="product">
+            <div class="card-img-wrap">
+              <img src="images/lorea.webp" alt="lorea">
+              <div class="card-overlay">
+                <p class="overlay-title">lorea</p>
+                <p class="overlay-price">$29.95</p>
+              </div>
+            </div>
+            <div class="card-caption">
+              <p class="card-title">lorea · experimental, rnb</p>
+              <p class="card-sub">003</p>
+            </div>
+          </a>
+          <a class="card" href="https://payhip.com/b/YYYY" target="_blank" rel="noopener">
+            <div class="card-img-wrap">
+              <img src="images/jades.png" alt="jades">
+              <div class="card-overlay">
+                <p class="overlay-title">jades</p>
+                <p class="overlay-price">$29.95</p>
+              </div>
+            </div>
+            <div class="card-caption">
+              <p class="card-title">jades · r&b, soul</p>
+              <p class="card-sub">002</p>
+            </div>
+          </a>
+          <a class="card" href="https://payhip.com/b/ZZZZ" target="_blank" rel="noopener">
+            <div class="card-img-wrap">
+              <img src="images/sodus.png" alt="sodus">
+              <div class="card-overlay">
+                <p class="overlay-title">sodus</p>
+                <p class="overlay-price">$29.95</p>
+              </div>
+            </div>
+            <div class="card-caption">
+              <p class="card-title">sodus · experimental, ambient</p>
+              <p class="card-sub">001</p>
+            </div>
+          </a>
+        </div>
+    </main>
+
+    <!-- VIEW: Terms -->
+    <main id="view-terms" class="view terms-page">
+      <div class="terms-shell">
+        <div class="terms-top">
+          <div class="terms-meta">
+            <h1 class="terms-title">Terms of use</h1>
+            <p class="terms-date">Last updated: March 2026</p>
+          </div>
+          <a href="#gallery" class="terms-close" aria-label="Close" data-view="gallery">×</a>
+        </div>
+
+        <div class="terms-body">
+          <section class="terms-section">
+            <button class="terms-toggle" type="button">
+              <span class="terms-section-title">License</span>
+              <span class="terms-arrow">+</span>
+            </button>
+            <div class="terms-text">
+              <p>You are free to:</p>
+              <ul class="terms-list">
+                <li>Use samples in your tracks, beats, and compositions without limitations</li>
+                <li>Release music commercially — sell on platforms, upload to streaming services</li>
+                <li>Process and modify samples however you want</li>
+                <li>Use in videos, advertisements, films, and games</li>
+                <li>Use in live performances and DJ sets</li>
+                <li>Create unlimited number of tracks</li>
+              </ul>
+              <p class="terms-note">One purchase = lifetime license. No royalties, no attribution required.</p>
+            </div>
+          </section>
+
+          <section class="terms-section">
+            <button class="terms-toggle" type="button">
+              <span class="terms-section-title">Permitted use</span>
+              <span class="terms-arrow">+</span>
+            </button>
+            <div class="terms-text">
+              <p>You may use the samples in music releases, films, advertisements, and other creative works. Finished works may be distributed and monetized on all platforms including streaming services.</p>
+            </div>
+          </section>
+
+          <section class="terms-section">
+            <button class="terms-toggle" type="button">
+              <span class="terms-section-title">Restrictions</span>
+              <span class="terms-arrow">+</span>
+            </button>
+            <div class="terms-text">
+              <p>You may not:</p>
+              <ul class="terms-list">
+                <li>Resell samples as-is or as new sample packs</li>
+                <li>Share files with other producers</li>
+                <li>Upload to torrents or file-sharing platforms</li>
+                <li>Claim samples as your own original work</li>
+                <li>Use to create competing sample packs</li>
+                <li>Sell access to samples to other people</li>
+              </ul>
+              <p class="terms-note">In simple terms: samples are only for your tracks, not for resale in any form.</p>
+            </div>
+          </section>
+
+          <section class="terms-section">
+            <button class="terms-toggle" type="button">
+              <span class="terms-section-title">Ownership</span>
+              <span class="terms-arrow">+</span>
+            </button>
+            <div class="terms-text">
+              <p>All samples remain the intellectual property of y20.solutions. Purchase grants a license only — not ownership of the original recordings or compositions.</p>
+            </div>
+          </section>
+
+          <section class="terms-section">
+            <button class="terms-toggle" type="button">
+              <span class="terms-section-title">Refunds</span>
+              <span class="terms-arrow">+</span>
+            </button>
+            <div class="terms-text">
+              <p>Due to the digital nature of our products, all sales are final. If you experience a technical issue with your download, contact us and we will resolve it promptly.</p>
+            </div>
+          </section>
+
+          <section class="terms-section">
+            <button class="terms-toggle" type="button">
+              <span class="terms-section-title">Contact</span>
+              <span class="terms-arrow">+</span>
+            </button>
+            <div class="terms-text">
+              <p>For any questions regarding these terms, reach out via the contact page or at <a href="mailto:hello@y20.solutions">hello@y20.solutions</a></p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <!-- VIEW: Product -->
+    <main id="view-product" class="view product-page">
+      <div class="product-left">
+        <a href="#gallery" class="product-back-btn" id="productBackBtn">← back to sample</a>
+        <div class="cover-wrap">
+          <img src="images/lorea.webp" alt="lorea" class="main-cover" id="mainCover">
+          <div class="cover-thumbs">
+            <img src="images/lorea.webp" alt="" class="active" onclick="switchCover(this)">
+            <img src="images/lorea alternative.webp" alt="" onclick="switchCover(this)">
+            <img src="images/lorea backside demo.webp" alt="" onclick="switchCover(this)">
+          </div>
+        </div>
+      </div>
+
+      <div class="product-info">
+        <div class="product-meta">
+          <h1 class="product-title">lorea</h1>
+          <p class="product-genres">experimental, rnb</p>
+          <p class="product-number">003</p>
+        </div>
+
+        <p class="product-desc">Experimental sample collection that blends soulful R&B with ambient open spaces, creating immersive soundscapes with emotional depth.</p>
+
+        <div class="product-tags">
+          <span class="tag">10 samples</span>
+          <span class="tag">WAV</span>
+          <span class="tag">44.1k khz</span>
+        </div>
+
+        <div class="player">
+          <div class="player-info">
+            <span class="player-label">Preview</span>
+          </div>
+          <div class="player-controls">
+            <button class="play-btn" id="playBtn" onclick="togglePlay()" aria-label="Play">
+              <svg id="playIcon" width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="5,3 19,12 5,21"/>
+              </svg>
+              <svg id="pauseIcon" width="12" height="12" viewBox="0 0 24 24" fill="currentColor" style="display:none">
+                <rect x="6" y="4" width="4" height="16"/>
+                <rect x="14" y="4" width="4" height="16"/>
+              </svg>
+            </button>
+            <div class="progress-wrap" onclick="seek(event)">
+              <div class="progress-bar" id="progressBar"></div>
+            </div>
+            <span class="player-time" id="playerTime">0:00</span>
+          </div>
+          <audio id="audio" src="audio/lorea_preview.mp3"></audio>
+        </div>
+
+        <div class="product-buy">
+          <p class="product-price" id="productPrice">$29.95</p>
+          <a href="https://payhip.com/b/XXXX" target="_blank" rel="noopener" class="buy-btn" id="buyBtn">Purchase</a>
+          <button class="variant-btn active" type="button" onclick="selectOption(this)" data-price="29.95" data-link="https://payhip.com/b/XXXX">Compositions</button>
+          <button class="variant-btn" type="button" onclick="selectOption(this)" data-price="49.95" data-link="https://payhip.com/b/YYYY">Compositions + stems</button>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <section id="view-product-bottom" class="view product-bottom">
+    <div class="bottom-left">
+      <div class="pack-player">
+        <div class="pack-player-header">
+          <span class="pack-player-label">Preview pack</span>
+        </div>
+        <ul class="tracklist" id="bottomTracklist">
+          <li data-index="01" data-src="audio/across rooftops.mp3">across rooftops</li>
+          <li data-index="02" data-src="audio/staroom.mp3">staroom</li>
+          <li data-index="03" data-src="audio/riviera.mp3">riviera</li>
+          <li data-index="04" data-src="audio/numbed.mp3">numbed</li>
+          <li data-index="05" data-src="audio/lorea.mp3">lorea</li>
+          <li data-index="06" data-src="audio/twilight.mp3">twilight</li>
+          <li data-index="07" data-src="audio/dreampalette.mp3">dreampalette</li>
+          <li data-index="08" data-src="audio/chanel.mp3">chanel</li>
+          <li data-index="09" data-src="audio/diamondtears.mp3">diamondtears</li>
+          <li data-index="10" data-src="audio/beyond.mp3">beyond</li>
+        </ul>
+        <audio id="bottomAudio"></audio>
+      </div>
+    </div>
+
+    <div class="bottom-right">
+      <h2 class="usage-title">Usage</h2>
+      <p class="usage-text">Digital download with instant access. Compatible with any DAW or sampler. Samples are 44.1 kHz WAV.</p>
+      <p class="usage-text">You may use these sounds in your own compositions and commercial releases. Redistribution or resale of the raw samples is not permitted.</p>
+    </div>
+  </section>
+
+  <script>
+    (function() {
+      var views = ['gallery', 'terms', 'product'];
+      var productBottom = document.getElementById('view-product-bottom');
+
+      function showView(name) {
+        var galleryView = document.getElementById('view-gallery');
+        views.forEach(function(v) {
+          var el = document.getElementById('view-' + v);
+          if (el) {
+            el.classList.toggle('active', v === name);
+          }
+        });
+        if (name !== 'gallery' && galleryView) {
+          galleryView.classList.remove('mobile-show-catalog');
+        }
+        productBottom.classList.toggle('active', name === 'product');
+        window.location.hash = name;
+        document.querySelectorAll('.nav-link[data-view]').forEach(function(a) {
+          a.classList.toggle('active', a.getAttribute('data-view') === name);
+        });
+        var titles = { gallery: 'y20', terms: 'y20 — terms', product: 'lorea — y20' };
+        document.title = titles[name] || 'y20';
+        if (window.innerWidth <= 768) {
+          document.body.classList.toggle('mobile-landing-active', name === 'gallery');
+        } else {
+          document.body.classList.remove('mobile-landing-active');
+        }
+      }
+
+      function getViewFromHash() {
+        var hash = (window.location.hash || '#gallery').slice(1);
+        return views.indexOf(hash) >= 0 ? hash : 'gallery';
+      }
+
+      document.querySelectorAll('a[data-view]').forEach(function(a) {
+        a.addEventListener('click', function(e) {
+          if (this.getAttribute('href').indexOf('#') === 0) {
+            e.preventDefault();
+            showView(this.getAttribute('data-view'));
+          }
+        });
+      });
+
+      document.querySelectorAll('.mobile-nav-item, .mobile-top-link').forEach(function(a) {
+        a.addEventListener('click', function(e) {
+          var targetId = this.getAttribute('data-view') || this.getAttribute('href');
+          if (targetId === '#product' || this.textContent.trim().toLowerCase() === 'music') {
+            e.preventDefault();
+            var catalog = document.getElementById('mobileCatalog');
+            if (catalog) {
+              catalog.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }
+        });
+      });
+
+      var productBackBtn = document.getElementById('productBackBtn');
+      if (productBackBtn) {
+        productBackBtn.addEventListener('click', function(e) {
+          e.preventDefault();
+          window.location.hash = 'gallery';
+          setTimeout(function() {
+            if (window.innerWidth <= 768) {
+              var catalog = document.getElementById('mobileCatalog');
+              if (catalog) {
+                catalog.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              }
+            }
+          }, 10);
+        });
+      }
+
+      window.addEventListener('hashchange', function() { 
+        document.body.classList.remove('frame-is-open');
+        var galleryView = document.getElementById('view-gallery');
+        if(galleryView) galleryView.classList.remove('mobile-frame-open');
+        showView(getViewFromHash()); 
+      });
+      window.addEventListener('resize', function() {
+        if (window.innerWidth > 768) document.body.classList.remove('mobile-landing-active');
+        else if (getViewFromHash() === 'gallery') document.body.classList.add('mobile-landing-active');
+      });
+      showView(getViewFromHash());
+
+      var menuEl = document.getElementById('mobileLandingMenu');
+      if (menuEl && 'IntersectionObserver' in window) {
+        var io = new IntersectionObserver(function(entries) {
+          entries.forEach(function(e) { e.target.classList.toggle('in-view', e.isIntersecting); });
+        }, { rootMargin: '-20% 0px', threshold: 0 });
+        io.observe(menuEl);
+      }
+
+      window.addEventListener('scroll', function() {
+        var mobileBar = document.getElementById('mobileBar');
+        if (mobileBar && window.innerWidth <= 768) {
+          if (window.scrollY > 100) {
+            mobileBar.classList.add('scrolled');
+          } else {
+            mobileBar.classList.remove('scrolled');
+          }
+        }
+      });
+    })();
+
+    var burgerBtn = document.getElementById('burgerBtn');
+    if (burgerBtn) {
+      burgerBtn.addEventListener('click', function() {
+        var menu = document.getElementById('mobileMenu');
+        menu.classList.toggle('open');
+        this.textContent = menu.classList.contains('open') ? '✕' : '☰';
+      });
+    }
+
+    document.querySelectorAll('.terms-toggle').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        this.closest('.terms-section').classList.toggle('open');
+      });
+    });
+
+    var audio = document.getElementById('audio');
+    var playIcon = document.getElementById('playIcon');
+    var pauseIcon = document.getElementById('pauseIcon');
+    var progressBar = document.getElementById('progressBar');
+    var playerTime = document.getElementById('playerTime');
+
+    function togglePlay() {
+      if (audio.paused) {
+        audio.play();
+        playIcon.style.display = 'none';
+        pauseIcon.style.display = 'block';
+      } else {
+        audio.pause();
+        playIcon.style.display = 'block';
+        pauseIcon.style.display = 'none';
+      }
+    }
+
+    audio.addEventListener('timeupdate', function() {
+      var pct = (audio.currentTime / audio.duration) * 100;
+      progressBar.style.width = pct + '%';
+      var m = Math.floor(audio.currentTime / 60);
+      var s = Math.floor(audio.currentTime % 60).toString().padStart(2, '0');
+      playerTime.textContent = m + ':' + s;
+    });
+
+    audio.addEventListener('ended', function() {
+      playIcon.style.display = 'block';
+      pauseIcon.style.display = 'none';
+      progressBar.style.width = '0%';
+      playerTime.textContent = '0:00';
+    });
+
+    function seek(e) {
+      var wrap = e.currentTarget;
+      var pct = e.offsetX / wrap.offsetWidth;
+      audio.currentTime = pct * audio.duration;
+    }
+
+    function switchCover(thumb) {
+      document.getElementById('mainCover').src = thumb.src;
+      document.querySelectorAll('.cover-thumbs img').forEach(function(t) { t.classList.remove('active'); });
+      thumb.classList.add('active');
+    }
+
+    function selectOption(button) {
+      document.querySelectorAll('.variant-btn').forEach(function(btn) { btn.classList.remove('active'); });
+      button.classList.add('active');
+      document.getElementById('productPrice').textContent = '$' + button.dataset.price;
+      document.getElementById('buyBtn').href = button.dataset.link;
+    }
+
+    var bottomAudio = document.getElementById('bottomAudio');
+    var trackItems = Array.prototype.slice.call(document.querySelectorAll('#bottomTracklist li'));
+    var currentIndex = null;
+
+    function setTrack(index, autoplay) {
+      autoplay = autoplay !== false;
+      var item = trackItems[index];
+      if (!item) return;
+      trackItems.forEach(function(li) {
+        li.classList.remove('active');
+        var bar = li.querySelector('.track-progress');
+        var time = li.querySelector('.track-time');
+        if (bar) bar.style.width = '0%';
+        if (time) time.textContent = '';
+      });
+      item.classList.add('active');
+      currentIndex = index;
+      bottomAudio.src = item.dataset.src;
+      if (autoplay) bottomAudio.play();
+    }
+
+    bottomAudio.addEventListener('timeupdate', function() {
+      if (currentIndex === null || !bottomAudio.duration) return;
+      var item = trackItems[currentIndex];
+      var bar = item.querySelector('.track-progress');
+      var time = item.querySelector('.track-time');
+      var pct = (bottomAudio.currentTime / bottomAudio.duration) * 100;
+      if (bar) bar.style.width = pct + '%';
+      if (time) {
+        var m = Math.floor(bottomAudio.currentTime / 60);
+        var s = Math.floor(bottomAudio.currentTime % 60).toString().padStart(2, '0');
+        time.textContent = m + ':' + s;
+      }
+    });
+
+    bottomAudio.addEventListener('ended', function() {
+      if (currentIndex < trackItems.length - 1) setTrack(currentIndex + 1);
+    });
+
+    trackItems.forEach(function(item, index) {
+      var progressWrap = document.createElement('div');
+      progressWrap.className = 'track-progress-wrap';
+      progressWrap.innerHTML = '<div class="track-progress"></div>';
+      var timeEl = document.createElement('span');
+      timeEl.className = 'track-time';
+      item.appendChild(progressWrap);
+      item.appendChild(timeEl);
+      item.addEventListener('click', function() {
+        if (currentIndex === index && !bottomAudio.paused) {
+          bottomAudio.pause();
+          item.classList.remove('active');
+          currentIndex = null;
+        } else {
+          setTrack(index, true);
+        }
+      });
+    });
+  </script>
+</body>
+</html>
